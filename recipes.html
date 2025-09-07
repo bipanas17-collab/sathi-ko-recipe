@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sathi Ko Recipe — Recipes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">सा</span>
+        <span class="logo-text">Sathi Ko Recipe</span>
+      </a>
+      <input id="nav-toggle" class="nav-toggle" type="checkbox">
+      <label for="nav-toggle" class="nav-toggle-btn"><span class="bar"></span><span class="bar"></span><span class="bar"></span></label>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="recipes.html">Recipes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main" class="site-main">
+
+    <!-- Page Header -->
+    <section class="section page-header">
+      <div class="wrap">
+        <h1>All Recipes</h1>
+        <p class="muted">Browse by category or pick a trending dish</p>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section categories">
+      <div class="wrap cats-grid">
+        <a class="cat" href="#veg">Vegetarian</a>
+        <a class="cat" href="#nonveg">Non-Vegetarian</a>
+        <a class="cat" href="#vegan">Vegan</a>
+        <a class="cat" href="#quick">Quick Meals</a>
+        <a class="cat" href="#budget">Budget-Friendly</a>
+      </div>
+    </section>
+
+    <!-- Recipe Grid -->
+    <section class="section recipes-list">
+      <div class="wrap cards-grid">
+
+        <!-- Vegetarian -->
+        <article class="card" id="veg">
+          <img src="https://images.pexels.com/photos/128401/pexels-photo-128401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=900" alt="Vegetable curry with rice">
+          <div class="card-body">
+            <h3>Vegetable Curry</h3>
+            <p class="meta">40 min • Serves 4 • Budget-friendly</p>
+            <p class="excerpt">Hearty mixed vegetable curry, rich in flavour and easy for beginners.</p>
+            <div class="card-foot">
+              <div class="rating">★ ★ ★ ★ ☆</div>
+              <a class="btn small" href="recipe-detail.html">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Non-Vegetarian -->
+        <article class="card" id="nonveg">
+          <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=900" alt="Chicken curry with herbs">
+          <div class="card-body">
+            <h3>Chicken Curry</h3>
+            <p class="meta">50 min • Serves 3 • Affordable</p>
+            <p class="excerpt">Classic Nepali-style chicken curry with basic spices.</p>
+            <div class="card-foot">
+              <div class="rating">★ ★ ★ ★ ★</div>
+              <a class="btn small" href="recipe-detail.html">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Vegan -->
+        <article class="card" id="vegan">
+          <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=900" alt="Vegan tofu stir fry">
+          <div class="card-body">
+            <h3>Spicy Tofu Stir-Fry</h3>
+            <p class="meta">25 min • Serves 2 • Vegan</p>
+            <p class="excerpt">Quick and tasty stir-fry with tofu and seasonal vegetables.</p>
+            <div class="card-foot">
+              <div class="rating">★ ★ ★ ★ ☆</div>
+              <a class="btn small" href="recipe-detail.html">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Quick -->
+        <article class="card" id="quick">
+          <img src="https://images.pexels.com/photos/1437269/pexels-photo-1437269.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=900" alt="Quick vegetable noodles">
+          <div class="card-body">
+            <h3>Instant Noodle Upgrade</h3>
+            <p class="meta">10 min • Serves 1 • Quick</p>
+            <p class="excerpt">Turn ordinary noodles into a nutritious meal with simple add-ons.</p>
+            <div class="card-foot">
+              <div class="rating">★ ★ ★ ☆ ☆</div>
+              <a class="btn small" href="recipe-detail.html">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Budget -->
+        <article class="card" id="budget">
+          <img src="https://images.pexels.com/photos/5949885/pexels-photo-5949885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=600&w=900" alt="Traditional Nepali Dal Bhat">
+          <div class="card-body">
+            <h3>Dal Bhat</h3>
+            <p class="meta">30 min • Serves 3 • Very affordable</p>
+            <p class="excerpt">Traditional Nepali rice and lentils — healthy and budget-friendly.</p>
+            <div class="card-foot">
+              <div class="rating">★ ★ ★ ★ ★</div>
+              <a class="btn small" href="recipe-detail.html">View Recipe</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-about">
+        <a class="logo footer-logo" href="index.html"><span class="logo-mark">सा</span> Sathi Ko Recipe</a>
+        <p class="muted">Affordable and simple cooking for everyone.</p>
+      </div>
+      <nav class="footer-nav">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p class="muted">Got feedback? <a href="contact.html">Reach out</a></p>
+      </div>
+    </div>
+    <div class="wrap copyright">
+      <p>&copy; 2025 Sathi Ko Recipe. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
