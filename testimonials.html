@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Testimonials</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid #0073e6;
+    }
+
+    .name {
+      font-weight: bold;
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .role {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial {
+      font-style: italic;
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>What People Say</h1>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://i.pravatar.cc/80?img=1" alt="Avatar" class="avatar">
+      <p class="name">Alice Johnson</p>
+      <p class="role">Web Developer</p>
+      <p class="testimonial">“This website made it easy to showcase my projects. I’ve received so many opportunities thanks to it!”</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pravatar.cc/80?img=2" alt="Avatar" class="avatar">
+      <p class="name">Michael Lee</p>
+      <p class="role">UI/UX Designer</p>
+      <p class="testimonial">“Clean, modern, and professional. Exactly what I was looking for in a portfolio website.”</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pravatar.cc/80?img=3" alt="Avatar" class="avatar">
+      <p class="name">Sofia Martinez</p>
+      <p class="role">Entrepreneur</p>
+      <p class="testimonial">“I was impressed with the layout and how easy it is to navigate. Great work!”</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pravatar.cc/80?img=4" alt="Avatar" class="avatar">
+      <p class="name">David Kim</p>
+      <p class="role">Software Engineer</p>
+      <p class="testimonial">“Fast, responsive, and reliable. Hosting on GitHub Pages was a game-changer for me.”</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pravatar.cc/80?img=5" alt="Avatar" class="avatar">
+      <p class="name">Emma Wilson</p>
+      <p class="role">Marketing Manager</p>
+      <p class="testimonial">“This design feels very polished. I’ve recommended it to several colleagues already.”</p>
+    </div>
+
+    <div class="card">
+      <img src="https://i.pravatar.cc/80?img=6" alt="Avatar" class="avatar">
+      <p class="name">James Brown</p>
+      <p class="role">Project Manager</p>
+      <p class="testimonial">“The testimonial section adds a personal touch. It builds so much trust with clients.”</p>
+    </div>
+  </div>
+</body>
+</html>
